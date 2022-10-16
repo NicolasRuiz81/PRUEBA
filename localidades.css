@@ -1,0 +1,203 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+header, footer {
+    width: 100%;
+    margin-right: auto;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+header{
+    
+	height: 100vh;
+	background-image:url( imagenes/Balneario\ Nido\ Del\ Aguila\ 2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: bottom;
+	
+}
+
+#cuerpo{
+	background-color: rgba(144, 144, 172, 0.678);
+   
+}
+
+#portada h1{
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-size: 100px;
+	padding-top: 230px;
+	color: #fff;
+	font-family:  'Archivo Black';
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#menu{
+	text-align: right;
+	margin: 20px;
+    margin-top: -160px;
+	margin-right: 20px;
+	float: right;
+    
+}
+
+.nav a{
+	font-size: 17px;
+	padding: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav a:hover{
+	color: #fff;
+}
+
+
+ul{
+	list-style: none;
+}
+
+.nav li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav > li{
+	float: left;
+	text-align: left;
+}
+
+.nav li ul{
+	display: none;
+	position:fixed;
+	min-width: 140px;
+}
+
+.nav li:hover > ul{
+	display: block;
+}
+
+.fotos{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.foto img{
+    width:300px;
+    margin-right: 23px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.caja1{
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.caja2{
+    text-align: justify;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.info{
+    width: 48%;
+    float: left;
+}
+
+#slider{
+	width: 48%;
+    height: 660px;
+    margin: 10px;
+    margin-bottom: 40px;
+    float: right;
+	
+}
+
+
+#clima{
+    float: right;
+    margin-top: 65px;
+}
+
+
+#imagen_mapa{
+	margin: 10px 60px;
+}
+
+footer{
+    width: 100%;
+background-color: black;
+color: white;
+}
+.container-footer-all{
+    width:100%;
+    max-width: 1200px;
+    margin: auto; justify-content: space-between;
+
+}
+.container-body {
+display: flex;justify-content: space-between;
+
+}
+.column1{
+max-width: 400px; 
+}
+.column1 h1{
+font-size: 22px; 
+}
+.column1 p{
+    font-size: 14px; color: #C7C7C7; margin-top: 20px;
+}
+.column2 {
+max-width: 400px;
+}
+.column2 h1{
+    font-size: 22px;
+}
+.column2 .row1 {
+margin-top: 20px; display: flex;
+}
+.row1 img{
+    width: 36px; height: 36px;
+}
+.row1 label{ margin-top: 10px; margin-left: 20px; color: #C7C7C7;}
+
+.column3 {
+    max-width: 400px;
+}
+.column3 h1{ font-size: 22px;}
+
+.row2{  margin-top: 10px; margin-left: 20px; color: #C7C7C7;}
+
+.row2 img{
+    width: 36px; height: 36px;}
+.container-footer img{
+    width: 36px; height: 36px;  
+}
+.container-footer{ margin-top: 10px; margin-left: 20px; color: #C7C7C7;}
+
+/* .pie{
+	background-color: aquamarine;
+} 
+
+footer h3 {
+    text-align: center;
+}
+
+.icono img{
+	margin: 20px 600px;
+	padding-bottom: 20px;
+	text-align: center;
+} */
